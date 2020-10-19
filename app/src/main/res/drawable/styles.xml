@@ -1,0 +1,189 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="wo_shezhi_textView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableRight">@drawable/xiayibu</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:padding">@dimen/rc_dimen_size_12</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="popupwindow_address_update">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white1</item>
+        <item name="android:paddingLeft">@dimen/popupwindow_address_update_padding</item>
+        <item name="android:paddingRight">@dimen/popupwindow_address_update_padding</item>
+        <item name="android:paddingTop">@dimen/popupwindow_address_update_padding</item>
+        <item name="android:paddingBottom">@dimen/popupwindow_address_update_padding</item>
+    </style>
+
+    <style name="popupwindow_address_update_text_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/popupwindow_address_update_text_title_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/popupwindow_address_update_text_title_textsize</item>
+    </style>
+
+    <style name="popupwindow_address_update_text_contenxt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/popupwindow_address_update_text_contenxt_height</item>
+        <item name="android:textSize">@dimen/popupwindow_address_update_text_contenxt_textsize</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="qianbao_liubianxing_style">
+        <item name="android:layout_width">@dimen/qianbao_liubianxing_style_width</item>
+        <item name="android:layout_height">@dimen/qianbao_liubianxing_style_height</item>
+        <item name="android:layout_margin">@dimen/qianbao_liubianxing_style_margin</item>
+    </style>
+
+    <style name="popupwindow_address_add_text_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/popupwindow_address_add_text_content_height</item>
+        <item name="android:textSize">@dimen/popupwindow_address_add_text_content_textsize</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="bankcard_xian">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/xian</item>
+    </style>
+    <style name="zhinan_textview_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="shangcheng_imagebutton_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white1</item>
+        <item name="android:padding">45dp</item>
+    </style>
+    <style name="fragment_self_textview_style_new">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">15sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">15sp</item>
+        <item name="android:paddingTop">15sp</item>
+        <item name="android:drawablePadding">45dp</item>
+        <item name="android:drawableRight">@drawable/new_self_next</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingBottom">25dp</item>
+        <item name="android:background">@color/white1</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="tingche_type_textview">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="fragment_wuye_fuwu_zimu_style">
+        <item name="android:layout_width" >wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/wuye_yin_color</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:drawableRight">@drawable/new2_shouye_zimu_xian</item>
+    </style>
+    <style name="fragment_wuye_fuwu_zi_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:padding">15dp</item>
+    </style>
+    <style name="fragment_wode_xinxi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/wuye_yin_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="fragment_wodexinxi_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--<style name="zhinan_textview_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/rc_dimen_size_50</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>-->
+
+    <style name="zulin_textview">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="zulin_linearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="zulin_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/zulin_kuang_small</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="tingche_chongzhi_textview">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:background">@drawable/chongzhi_money_kuang</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="xiaoquxinxi_textview_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/xiaoquxinxi_textview_style_textsize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="xiaoquxinxi_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/xiaoquxinxi_layout_style_mtop</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="jiaofei_imagebutton_other_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+</resources>
